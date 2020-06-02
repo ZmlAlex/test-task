@@ -1,0 +1,17 @@
+.container {
+  max-width: 1200px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 26px auto 66px auto;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(5, 227px);
+    grid-gap: 1rem;
+  }
+}
